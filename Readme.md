@@ -1,7 +1,7 @@
 
 # qrgen
 
-`qrgen` is a simple command-line tool for generating QR code PNG images. 
+`qrgen` is a simple command-line tool for generating QR code PNG images based on the [`qrcode-generator`](https://github.com/magiclen/qrcode-generator) crate 
 
 ## Features
 - Generate QR codes from any input string, such as URLs, text, or other data.
