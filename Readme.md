@@ -1,14 +1,15 @@
-
 # qrgen
 
-`qrgen` is a simple command-line tool for generating QR code PNG images based on the [`qrcode-generator`](https://github.com/magiclen/qrcode-generator) crate 
+`qrgen` is a simple command-line tool for generating QR code PNG images based on the [`qrcode-generator`](https://github.com/magiclen/qrcode-generator) crate
 
 ## Features
+
 - Generate QR codes from any input string, such as URLs, text, or other data.
 - Customize the size of the QR code in pixels.
 - Output the QR code as a PNG file.
 
 ## Installation
+
 To build the project, you'll need to have [Rust](https://www.rust-lang.org/) installed. Clone the repository and build the project using `cargo`:
 
 ```sh
@@ -45,6 +46,10 @@ Here is an example of a generated QR code:
 
 ![Generated QR Code](./url_qr.png)
 
+**NOTE: If you prefer not to compile the code, you can generate the QR code
+directly from your browser by visiting
+[https://bguo068.github.io/qrgen](https://bguo068.github.io/qrgen)**
+
 ## Contributing
 
 We welcome contributions! Please feel free to submit a pull request or open an issue.
@@ -52,4 +57,3 @@ We welcome contributions! Please feel free to submit a pull request or open an i
 ## License
 
 `qrgen` is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
